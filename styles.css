@@ -1,10 +1,12 @@
 * {
+    /* Profilaxia: começando o projeto com todos valores configurados para zero. */
     padding: 0px;
     margin: 0px;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #header-flex {
+    /* Configuração do Header */
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -15,18 +17,27 @@
 }
 
 .logo-header-footer {
+    /* configuração logo 4Cars do Header */
     height: 3rem;
 }
 
 #botao-header {
+    /* Configuração botão 'entrar' do header */
     background-color: #FF5C5C;
     border: none;
     border-radius: 10px;
     color: white;
     padding: 0.5rem 2rem;
+    transition: 0.3s;
+}
+
+#botao-header:hover {
+    background-color: #edacac;
+
 }
 
 .nav-bar {
+    /* barra de navegação do menu */
     display: flex;
     justify-content: space-around;
     padding-bottom: 0.5rem;
@@ -34,4 +45,31 @@
     height: 1.5rem;
     align-items: flex-end;
     font-weight: bold;
+}
+
+#footer-flex {
+    /* Configuração do Header */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 0px 0px -5px black;
+    margin-bottom: 0.25rem;
+}
+
+#combinado-icones-redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+    padding-right: 1rem;
+}
+
+.icone-redes-sociais {
+    height: 1.5rem;
+}
+
+#copyright-footer {
+    font-size: 0.75rem;
+    text-align: center;
 }
