@@ -1,3 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header-flex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 0.25rem;
+}
+
 .logo-header-footer {
     height: 3rem;
+}
+
+#botao-header {
+    background-color: #FF5C5C;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+    background-color: #EFEFEF;
+    height: 1.5rem;
+    align-items: flex-end;
+    font-weight: bold;
 }
