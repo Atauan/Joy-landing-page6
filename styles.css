@@ -208,3 +208,12 @@ h2 {
     width: 2rem;
 
 }
+
+@media screen and (min-device-widht : 800px) {
+
+    #texto-entrada {
+     width: 50%;       
+    }
+
+    
+}
