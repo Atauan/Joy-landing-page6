@@ -11,9 +11,20 @@
 
 <body>
     <header id="header-flex">
-        <a href="./index.html"><img class="logo-header-footer" src="/images/4cars 1.jpg"
-                alt="logo da 4Cars com com o subtítulo 'nosso carro, sua chance'"></a>
-        <button class="botao-link">entrar</button>
+        <div id="header-elementos">
+            <a href="./index.html"><img class="logo-header-footer" src="/images/4cars 1.jpg"
+                    alt="logo da 4Cars com com o subtítulo 'nosso carro, sua chance'">
+            </a>
+                
+            <div class="menu-header">
+                <a class="item-nav-bar" href="#container-4carsx">produtos</a>
+                <a class="item-nav-bar" href="#nosso-time">o time</a>
+                <a class="item-nav-bar" href="#container-quem-somos">quem somos</a>
+                <a class="item-nav-bar" href="#contatos-href">contato</a>
+            </div>
+
+            <button class="botao-link">entrar</button>
+        </div>
     </header>
 
     <nav class="nav-bar">
@@ -23,88 +34,100 @@
         <a class="item-nav-bar" href="#contatos-href">contato</a>
     </nav>
 
-    </nav>
-    
+    <div id="container-texto-entrada">
     <h2 id="texto-entrada">Trabalhe com mobilidade sem entrar em dívida. Use quando quiser, o quanto quiser.</h2>
+    </div>    
 
-    <div id="container-4carsx"> 
+    <div id="container-produtos">
+        <div id="container-4carsx"> 
+            <h2 id="titulo-4Carsx">4cars X</h2>
+            <p class="texto-produto">O carro ideal para gerar renda dirigindo. </p>
+            <p class="texto-produto">Carregando e suporte de smartphone, ar-condicionado, 4 portas, ABS. </p>
+            <p class="texto-produto">Seguro incluso, tranquilidade garantida.</p>
+            <p class="texto-produto">A partir de R$ 350,00 por semana</p>
+            <img  class="img-4carsx"src="images/4Carx X.png" alt="imagem do carro X">
+            <button class="botao-contratar">contratar</button>
+        </div>
 
-    <h2 id="titulo-4Carsx">4cars X</h2>
-    <p class="texto-produto">O carro ideal para gerar renda dirigindo. </p>
-    <p class="texto-produto">carregando e suporte de smartphone, ar-condicionado, 4 portas, ABS. </p>
-    <p class="texto-produto">seguro incluso,tranquilidade garantida.</p>
-    <p class="texto-produto">a partir de R$ 350,00 por semana</p>
-    
-    <img  class="img-4carsx"src="images/4Carx X.png" alt="imagem do carro X">
-
-    <button class="botao-contratar">contratar</button>
-    </div>
-    <div id="container-4cars-black">
-
-        <h2 id="titulo-4Cars-black">4Cars Black</h2>
-        <p class="texto-produto">Luxo  para você e seu passageiro. </p>
-        <p class="texto-produto">Bancos de couro,direçâo elétrica, câmbio automático. </p>
-        <p class="texto-produto">Seguro incluso,tranquilidade garantida.</p>
-        <p class="texto-produto">A partir  de 550,00 por semana</p>
-
-        <img class="img-4cars-black" src="images/4Cars Black.webp" Black.webp" alt="imagem do carro black">
-
-        <button class="botao-contratar">contratar</button>
+        <div id="container-4cars-black">
+            <h2 id="titulo-4Cars-black">4Cars Black</h2>
+            <p class="texto-produto">Luxo  para você e seu passageiro. </p>
+            <p class="texto-produto">Bancos de couro, direção elétrica, câmbio automático, computador de bordo. </p>
+            <p class="texto-produto">Seguro incluso, tranquilidade garantida.</p>
+            <p class="texto-produto">A partir  de R$ 550,00 por semana</p>
+            <img class="img-4cars-black" src="images/4Cars Black.webp" alt="imagem do carro black">
+            <button class="botao-contratar">contratar</button>
+        </div>
     </div>
 
     <div>
         <div id="nosso-time">
-        <h2>Nosso time</h2>
+        
+            <h2>Nosso time</h2>
 
-        <img class="img-time" src="images/Danda.png" alt="imagem-da-danda">
-        <p> Dandarine Braz </p>
-        <p>Desenvolvedora Front-end</p>
-        <img class="img-time" src="images/Jaira.png" alt="imagem-da-jaira">
-        <p>Jaira Beletable</p>
-        <p>Desenvolvedora Front-end</p>
-        <img class="img-time" src="images/Sekine.png" alt="imagem-do-sekine">
-        <p>Pedro Sekine</p>
-        <p>Desenvolvendor Front-end</p>
+            <div id="time-grid">
+                <div class="componente-time">
+                    <img class="img-time" src="images/Danda.png" alt="imagem-da-danda">
+                    <p> Dandariene Braz </p>
+                    <p>Desenvolvedora Front-end</p>
+                </div>
+
+                <div class="componente-time">
+                    <img class="img-time" src="images/Jaira.png" alt="imagem-da-jaira">
+                    <p>Jaira Beletable</p>
+                    <p>Desenvolvedora Front-end</p>
+                </div>
+
+                <div class="componente-time">
+                    <img class="img-time" src="images/Sekine.png" alt="imagem-do-sekine">
+                    <p>Pedro Sekine</p>
+                    <p>Desenvolvendor Front-end</p>
+                </div>
+            </div>
         
     </div>
-    <div id="container-quem-somos">
-        <h2>Quem Somos</h2>
-          
-        <p class="texto-quem-somos">
-            Trabalhar com aplicativos é o mesmo
-            que ter flexibilidade? Não se você entrar
-            em um financiamento longo,
-            complicado e cheio de regras. </p>
 
+    <div id="grid-quem-somos-contato">
+        <div id="container-quem-somos">
+            <h2>Quem Somos</h2>
+            
             <p class="texto-quem-somos">
-            A 4Cars é uma solução 100% digital,
-            rápida e sem burocracia para você 
-            começar a trabalhar em menos de 7 dias. </p>
+                Trabalhar com aplicativos é o mesmo
+                que ter flexibilidade? Não se você entrar
+                em um financiamento longo,
+                complicado e cheio de regras. </p>
 
-            <p class="texto-quem-somos">
-            Alugue o seu carro quando quiser,Use por 
-            quanto tempo quiser,rode o quanto quiser.
-            Pague por semana e desfrute da melhor oferta do mercado.</p>
+                <p class="texto-quem-somos">
+                A 4Cars é uma solução 100% digital,
+                rápida e sem burocracia para você 
+                começar a trabalhar em menos de 7 dias. </p>
+
+                <p class="texto-quem-somos">
+                Alugue o seu carro quando quiser, use por 
+                quanto tempo quiser, rode o quanto quiser.
+                Pague por semana e desfrute da melhor oferta do mercado.</p>
+        </div>
+
+        <div id="contatos-href">
+            <h2>Contatos</h2>
+            <form class="formulario-flex" action="">
+                <label>Seu nome</label>
+                <input class="input-formulario" type="text">
+
+                <label>Seu email </label>
+                <input class="input-formulario" type="email">
+
+                <label>Mensagem</label>
+                <input class="input-formulario" id="input-mensagem" type="text">
+
+                <button class="botao-link" type="submit">Enviar</button>
+
+            </form>
+        </div>
+
+        <a href="#header-flex"><img class="botao-topo" src="./images/topo.png"></a>
+
     </div>
-
-    <div id="contatos-href">
-        <h2>Contatos</h2>
-        <form class="formulario-flex" action="">
-            <label>Seu nome</label>
-            <input class="input-formulario" type="text">
-
-            <label>Seu email </label>
-            <input class="input-formulario" type="email">
-
-            <label>Mensagem</label>
-            <input class="input-formulario" id="input-mensagem" type="text">
-
-            <button class="botao-link" type="submit">Enviar</button>
-
-        </form>
-    </div>
-
-    <a href="#header-flex"><img class="botao-topo" src="./images/topo.png"></a>
 
     <footer>
         <div id="footer-flex">
