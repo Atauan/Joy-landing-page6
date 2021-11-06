@@ -1,6 +1,7 @@
 # landing-page-template
 
-### Link do surge: temporary-toe.surge.sh
+### Link do surge:
+ill-fated-tent.surge.sh
 
 #### Este projeto é um site fictício de aluguel de veículos. Foi desenvolvido utilizando as tecnologias HTML e CSS em todo o projeto e exploramos bastante as propriedades Grid e flex, e também as unidades relativas para sua responsividade. Iniciamos com mobile first e depois a versão desktop, não desenvolvemos especificamente para aparelhos como tablets, por exemplo, portanto se for aberto em aparelhos do tipo pode haver alguma mudança no layout.
 
