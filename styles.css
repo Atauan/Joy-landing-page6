@@ -1,0 +1,326 @@
+* {
+    /* Profilaxia: começando o projeto com todos valores configurados para zero. */
+    padding: 0px;
+    margin: 0rem;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header-flex {
+    /* Configuração do Header */
+    
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 0.25rem;
+}
+
+#header-elementos {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+
+}
+
+
+.menu-header { /* menu de navegacao */
+    display: none;
+}
+
+.logo-header-footer {
+    /* configuração logo 4Cars do Header */
+    height: 3rem;
+}
+
+.botao-link {
+    /* Configuração botão 'entrar' do header e do formulário */
+    background-color: #FF5C5C;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 2rem;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#botao-header:hover {
+    background-color: #edacac;
+
+}
+
+.nav-bar {
+    /* barra de navegação do menu */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+    background-color: #EFEFEF;
+    height: 1.5rem;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.item-nav-bar {
+    text-decoration: none;
+    color: black;
+}
+
+#texto-entrada { /*  texto de entrada */
+    color: black;
+    line-height: 2rem;
+    margin: 2rem 0rem;
+}
+
+#container-4carsx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF5C5C;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}
+
+#container-4cars-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 1rem 1rem;
+
+}
+
+#titulo-4Carsx {
+    color: white;
+}
+
+#titulo-4Cars-black {
+    color: white;
+}
+
+.texto-produto { /*  texto-produtos */
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.img-4carsx {
+    height: 8rem;
+}
+
+.img-4cars-black {
+    height: 9rem;
+}
+
+.botao-contratar {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 0.5rem 2rem;
+    transition: 0.3s;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#nosso-time { /*  nosso-time */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F3D8D8;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin: 0rem 1rem;
+    transition: 0.3s;
+}
+
+.img-time {
+    width: 50vw;
+    margin: 1rem 0rem;
+}
+
+#container-quem-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+.texto-quem-somos {
+    margin: 1rem 2rem;
+}
+
+#footer-flex {
+    /* Configuração do Header */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 0.75rem 0.5rem;
+    box-shadow: 0px 0px -5px black;
+    margin-bottom: 0.25rem;
+}
+
+#combinado-icones-redes-sociais { /* icones redes sociais */
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+    padding-right: 1rem;
+}
+
+.icone-redes-sociais {
+    height: 1.5rem;
+}
+
+#copyright-footer {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.formulario-flex { /* formulario contatos */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.input-formulario {
+    background-color: #F3D8D8;
+    border-radius: 5px;
+    width: 95vw;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+} 
+
+#input-mensagem {
+    height: 8rem;
+}
+
+h2 {
+    color: #FF5C5C;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.botao-topo {
+    display: flex;
+    position: fixed;
+    right: 1rem;
+    top: 85%;
+    width: 2rem;
+
+}
+
+@media screen and (min-device-width: 800px) {
+
+    #container-texto-entrada {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0rem;
+    }
+
+
+    #texto-entrada {
+        max-width: 50vw;
+        line-height: 2.5rem;
+    }
+
+    #container-produtos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin: 0rem 10vw;
+    }
+
+    .texto-produto {
+        margin: 1rem 1.5rem;
+    }
+ 
+    #container-4carsx {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+    }
+    
+    #container-4cars-black {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+    }
+
+    .img-4carsx {
+        height: 10rem;
+    }
+    
+    .img-4cars-black {
+        height: 10rem;
+    }
+
+    #nosso-time {
+        margin: 0.5rem 10vw;
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .componente-time {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #time-grid {
+        display: flex;
+        justify-content: space-around;
+        width: 80vw;
+
+    }
+
+    .img-time {
+        width: 12rem;
+        margin: 1rem 0rem;
+    }
+
+    #grid-quem-somos-contato {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 0rem 10vw;
+
+    }
+
+    .texto-quem-somos {
+        line-height: 1.7rem;
+    }
+
+    .input-formulario {
+        max-width: 35vw;
+    } 
+
+    .nav-bar {
+        display: none;
+    }
+
+
+    .menu-header {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40vw;
+        font-weight: bold;
+    }
+
+    #header-elementos {
+        margin: 0rem 10vw;
+
+    }
+}
